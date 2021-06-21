@@ -1,0 +1,36 @@
+p.centrado {
+  text-align: center;
+}
+.menu{
+  list-style: none;
+  padding: 0;
+  background: #E9967A;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto; 
+ }
+ .menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+ }
+ .menu li {
+  display: inline-block;
+  text-align: Center;
+ }
+ .menu li a:hover{
+  background: #CD5C5C;
+ }
+ 
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#024959;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
